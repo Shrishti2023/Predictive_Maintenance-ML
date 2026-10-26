@@ -145,18 +145,22 @@ The notebook expects a separate dataset file named ai4i2020.csv. That CSV was no
 # Setup and Run
 1. Install the dependencies
 Use Python with these packages installed:
+
 pip install pandas numpy matplotlib seaborn scikit-learn eli5 jupyter
 
-2. Add the dataset
+3. Add the dataset
 Place ai4i2020.csv in the location you intend to use and update the CSV path in the notebook.
 
 The current notebook uses this machine-specific Windows path:
+
 df = pd.read_csv(r"D:\predictive_maintenance_ml\data\ai4i2020.csv")
 
 For example, if the CSV is in the same directory as the notebook, change the line to:
+
 df = pd.read_csv("ai4i2020.csv")
 
 3. Start Jupyter Notebook
+
 jupyter notebook
 Open predictive_maintenance.ipynb and run the cells in order.
 
