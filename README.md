@@ -163,6 +163,3 @@ df = pd.read_csv("ai4i2020.csv")
 
 jupyter notebook
 Open predictive_maintenance.ipynb and run the cells in order.
-
-# Disclaimer
-This is an educational experiment on a benchmark dataset. The saved test results do not guarantee performance on real industrial equipment and should not be used as the sole basis for maintenance or safety decisions.
