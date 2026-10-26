@@ -148,7 +148,7 @@ Use Python with these packages installed:
 
 pip install pandas numpy matplotlib seaborn scikit-learn eli5 jupyter
 
-3. Add the dataset
+2. Add the dataset
 Place ai4i2020.csv in the location you intend to use and update the CSV path in the notebook.
 
 The current notebook uses this machine-specific Windows path:
